@@ -39,7 +39,7 @@ if [ ! -e ./debian/changelog ]; then
         -e "s/\@VERSION\@/${VERSION}/g" \
         -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
         -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-        templates/debian/changelog \
+        debtemplate/changelog \
         > ./debian/changelog
 fi
 
@@ -48,7 +48,7 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    templates/debian/${FLAVOUR}-control \
+    debtemplate/control \
     > ./debian/control
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
@@ -56,14 +56,6 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    templates/debian/rules \
+    debtemplate/rules \
     > ./debian/rules
 chmod 755 ./debian/rules
-
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
-    -e "s/\@VERSION\@/${VERSION}/g" \
-    -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    templates/debian/source/options \
-    > ./debian/source/options
