@@ -1,8 +1,0 @@
-[KSplash Theme: @CODENAME_SAFE@]
-# Theme behaviour settings.
-Engine = KSplashX
-Greeter=siduction.xml
-Name=ksplash @CODENAME_SAFE@
-Author=siduction art team
-Copyright=CC-BY-SA 3.0 2013
-Screenshot=preview.png
