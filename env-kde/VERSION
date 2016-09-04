@@ -1,6 +1,0 @@
-#!/bin/bash
-
-NAME=patience
-DISPLAY='Patience'
-DESCRIPTION='Patience'
-VERSION=2016.1.0
