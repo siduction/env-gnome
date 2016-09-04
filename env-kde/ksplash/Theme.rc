@@ -1,8 +1,0 @@
-[KSplash Theme: thunderstruck]
-# Theme behaviour settings.
-Engine = KSplashX
-Greeter=siduction.xml
-Name=ksplash thunderstruck
-Author=siduction art team
-Copyright=CC-BY-SA 3.0 2013
-Screenshot=preview.png
