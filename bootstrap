@@ -56,6 +56,22 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+    debtemplate/copyright \
+    > ./debian/copyright
+
+sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+    -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+    -e "s/\@VERSION\@/${VERSION}/g" \
+    -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
+    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+    debtemplate/get-template \
+    > ./debian/get-template
+
+sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+    -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+    -e "s/\@VERSION\@/${VERSION}/g" \
+    -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
+    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
     debtemplate/rules \
     > ./debian/rules
 chmod 755 ./debian/rules

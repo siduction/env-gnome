@@ -1,6 +1,6 @@
 #!/bin/bash
 # Copyright 2016 Alf Gaida <agaida@siduction.org>
-# License: WTFPL-2
+# License: GPL2+
 
 source VERSION
 
@@ -8,8 +8,6 @@ source VERSION
 
 git checkout templates -- bootstrap
 git checkout templates -- debtemplate
-git checkout templates -- theme
-git checkout templates -- Makefile
 
 [ -f ./debian/rules ] && ./bootstrap && echo 'Bootstrap first run ...'
 [ ! -f ./debian/rules ] && ./bootstrap && echo 'Bootstrap second run ...'
