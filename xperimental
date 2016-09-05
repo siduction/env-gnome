@@ -1,6 +1,0 @@
-#!/bin/bash
-
-NAME=thunderstruck
-DISPLAY='thunderstruck'
-DESCRIPTION='Thunderstruck - xperimental'
-VERSION=2016.1.0

@@ -1,6 +1,0 @@
-#!/bin/bash
-
-NAME=paintitblack
-DISPLAY='paint it black'
-DESCRIPTION='PaintItBlack - next'
-VERSION=2016.1.0

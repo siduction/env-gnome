@@ -1,6 +1,0 @@
-#!/bin/bash
-
-NAME=whiteroom
-DISPLAY='white room'
-DESCRIPTION=WhiteRoom
-VERSION=2016.1.0
