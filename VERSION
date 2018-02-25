@@ -1,6 +1,7 @@
 #!/bin/bash
 
-NAME=patience
 DISPLAY='Patience'
 DESCRIPTION='Patience'
-VERSION=2018.1.0
+FLAVOUR=gnome
+NAME=patience
+VERSION=2018.2.0
