@@ -1,32 +1,15 @@
-## misc trash
-*.directory
-
 ## misc editor backups and tmp files
 *~
 *.save
 *.swp
 
-## build foo
-/*/*.deb
-/*/*.dsc
-/*/*.tar.bz2
-/*/*.tar.xz
-/*/*.build
-/*/*.changes
-/*/*.upload
-/*/*/build/
-
-
-/*/*/debian/thunderstruck-*/
-/*/*/debian/paintitblack-*/
-/*/*/debian/whiteroom-*/
+/debian/thunderstruck-*/
+/debian/paintitblack-*/
+/debian/patience-*/
+/debian/whiteroom-*/
 
 ## generated debian files
-*/*/debian/debhelper-build-stamp
-*/*/debian/files
-*/*/debian/*.log
-*/*/debian/*.substvars
-
-
-### waste
-/templates/aaa
+/debian/debhelper-build-stamp
+/debian/files
+/debian/*.log
+/debian/*.substvars

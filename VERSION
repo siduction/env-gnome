@@ -1,0 +1,6 @@
+#!/bin/bash
+CODENAME=Patience
+CODENAME_SAFE=patience
+DISPLAY=GNOME
+FLAVOUR=gnome
+VERSION=2018.2.0
