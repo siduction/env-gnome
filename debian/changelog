@@ -1,3 +1,9 @@
+patience-gnome-artwork (2018.2.0-1) unstable; urgency=medium
+
+  * new template and bootstrap for 18.2
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 26 Feb 2018 00:14:26 +0100
+
 patience-gnome-artwork (2018.1.0-1) unstable; urgency=medium
 
   * release 18.1
