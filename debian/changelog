@@ -1,4 +1,4 @@
-@CODENAME_SAFE@-@FLAVOUR@-artwork (yyyy.mm.dd) unstable; urgency=low
+@CODENAME_SAFE@-gnome-artwork (yyyy.mm.dd) unstable; urgency=low
 
   * initial release
 
