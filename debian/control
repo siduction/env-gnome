@@ -1,12 +1,11 @@
 Source: paintitblack-gnome-artwork
 Section: graphics
-Priority: extra
+Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
-Build-Depends: debhelper (>= 9),
-Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 11),
+Standards-Version: 4.1.4
+Vcs-Browser: https://git.siduction.org/artwork/env-gnome
 Vcs-Git: https://git.siduction.org/artwork/env-gnome.git
-Vcs-Browser: https://git.siduction.org/artwork/env-gnome.git
-
 
 Package: paintitblack-gnome-artwork
 Architecture: all
@@ -16,6 +15,6 @@ Depends:
  siduction-icons,
 Recommends:
  dmz-cursor-theme
-Description: GNOME theme for PaintItBlack - next
+Description: GNOME theme for PaintItBlack
  Release specific metapackage depending on icons and wallpapers to be
  used in combination with the GNOME Desktop Environment.

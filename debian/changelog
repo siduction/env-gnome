@@ -1,4 +1,10 @@
-paintitblack-gnome-artwork (2106.09.04-1) unstable; urgency=medium
+paintitblack-gnome-artwork (2018.3.0-1) unstable; urgency=medium
+
+  * new version 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 15 Apr 2018 22:14:46 +0200
+
+paintitblack-gnome-artwork (2016.09.04-1) unstable; urgency=medium
 
   * new bootstrap, fixed copyright, fixed VCS-fields
   * source format is 1.0
@@ -6,19 +12,19 @@ paintitblack-gnome-artwork (2106.09.04-1) unstable; urgency=medium
 
  -- Alf Gaida <agaida@siduction.org>  Mon, 05 Sep 2016 19:11:04 +0200
 
-paintitblack-gnome-artwork (2106.08.02) unstable; urgency=medium
+paintitblack-gnome-artwork (2016.08.02) unstable; urgency=medium
 
   * VERSION hardlinked
 
  -- Alf Gaida <agaida@siduction.org>  Thu, 11 Aug 2016 00:10:11 +0200
 
-paintitblack-gnome-artwork (2106.08.01) unstable; urgency=medium
+paintitblack-gnome-artwork (2016.08.01) unstable; urgency=medium
 
   * new bootstrap
 
  -- Alf Gaida <agaida@siduction.org>  Mon, 08 Aug 2016 20:51:44 +0200
 
-paintitblack-gnome-artwork (2105.08.01) unstable; urgency=medium
+paintitblack-gnome-artwork (2015.08.01) unstable; urgency=medium
 
   * package renamed, reworked, cleaned up
 
