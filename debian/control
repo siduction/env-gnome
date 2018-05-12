@@ -3,18 +3,16 @@ Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
 Build-Depends: debhelper (>= 11),
-Standards-Version: 4.1.3
+Standards-Version: 4.1.4
+Vcs-Browser: https://git.siduction.org/artwork/env-gnome
 Vcs-Git: https://git.siduction.org/artwork/env-gnome.git
-Vcs-Browser: https://git.siduction.org/artwork/env-gnome.git
 
 Package: patience-gnome-artwork
 Architecture: all
-Depends:
- ${misc:Depends},
- patience-wallpapers,
- siduction-icons,
-Recommends:
- dmz-cursor-theme
+Depends: ${misc:Depends},
+         patience-wallpapers,
+         siduction-icons
+Recommends: dmz-cursor-theme
 Description: GNOME theme for Patience
  Release specific metapackage depending on icons and wallpapers to be
  used in combination with the GNOME Desktop Environment.
