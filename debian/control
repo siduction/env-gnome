@@ -2,19 +2,17 @@ Source: @CODENAME_SAFE@-gnome-artwork
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
-Build-Depends: debhelper (>= 11),
-Standards-Version: 4.1.4
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.0
 Vcs-Browser: https://git.siduction.org/artwork/env-gnome
 Vcs-Git: https://git.siduction.org/artwork/env-gnome.git
 
 Package: @CODENAME_SAFE@-gnome-artwork
 Architecture: all
-Depends:
- ${misc:Depends},
- @CODENAME_SAFE@-wallpapers,
- siduction-icons,
-Recommends:
- dmz-cursor-theme
+Depends: ${misc:Depends},
+         @CODENAME_SAFE@-wallpapers,
+         siduction-icons
+Recommends: dmz-cursor-theme
 Description: GNOME theme for @CODENAME@
  Release specific metapackage depending on icons and wallpapers to be
  used in combination with the GNOME Desktop Environment.

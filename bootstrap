@@ -40,7 +40,6 @@ if [ ! -e ./debian/changelog ]; then
 fi
 
 
-cp ../template/debian/compat ./debian/compat
 
 sed -e "s/\@CODENAME\@/${CODENAME}/g" \
     -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
