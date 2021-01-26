@@ -1,4 +1,4 @@
-Source: patience-gnome-artwork
+Source: c-blues-gnome-artwork
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -7,12 +7,12 @@ Standards-Version: 4.1.4
 Vcs-Browser: https://git.siduction.org/artwork/env-gnome
 Vcs-Git: https://git.siduction.org/artwork/env-gnome.git
 
-Package: patience-gnome-artwork
+Package: c-blues-gnome-artwork
 Architecture: all
 Depends: ${misc:Depends},
-         patience-wallpapers,
+         c-blues-wallpapers,
          siduction-icons
 Recommends: dmz-cursor-theme
-Description: GNOME theme for Patience
+Description: GNOME theme for c-blues
  Release specific metapackage depending on icons and wallpapers to be
  used in combination with the GNOME Desktop Environment.
