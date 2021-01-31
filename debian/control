@@ -1,4 +1,4 @@
-Source: c-blues-gnome-artwork
+Source: cblues-gnome-artwork
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -7,12 +7,12 @@ Standards-Version: 4.1.4
 Vcs-Browser: https://git.siduction.org/artwork/env-gnome
 Vcs-Git: https://git.siduction.org/artwork/env-gnome.git
 
-Package: c-blues-gnome-artwork
+Package: cblues-gnome-artwork
 Architecture: all
 Depends: ${misc:Depends},
-         c-blues-wallpapers,
+         cblues-wallpapers,
          siduction-icons
 Recommends: dmz-cursor-theme
-Description: GNOME theme for c-blues
+Description: GNOME theme for cblues
  Release specific metapackage depending on icons and wallpapers to be
  used in combination with the GNOME Desktop Environment.
