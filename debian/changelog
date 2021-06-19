@@ -1,3 +1,9 @@
+farewell-gnome-artwork (2021.1.99-1) unstable; urgency=medium
+
+  * prepare farewell packaging
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sat, 19 Jun 2021 18:19:10 +0200
+
 cblues-gnome-artwork (2021.1.0-1) unstable; urgency=medium
 
   * fix codename safe

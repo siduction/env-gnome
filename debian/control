@@ -1,13 +1,13 @@
-Source: cblues-gnome-artwork
+Source: farewell-gnome-artwork
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
 Build-Depends: debhelper (>= 11),
 Standards-Version: 4.1.4
-Vcs-Browser: https://git.siduction.org/artwork/env-gnome
-Vcs-Git: https://git.siduction.org/artwork/env-gnome.git
+Vcs-Browser: https://github.com/siduction/env-gnome
+Vcs-Git: https://github.com/siduction/env-gnome
 
-Package: cblues-gnome-artwork
+Package: farewell-gnome-artwork
 Architecture: all
 Depends: ${misc:Depends},
          cblues-wallpapers,
