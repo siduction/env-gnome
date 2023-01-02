@@ -1,4 +1,4 @@
-Source: wintersky-gnome-artwork
+Source: mow-gnome-artwork
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -7,12 +7,12 @@ Standards-Version: 4.1.4
 Vcs-Browser: https://git.siduction.org/artwork/env-gnome
 Vcs-Git: https://git.siduction.org/artwork/env-gnome.git
 
-Package: wintersky-gnome-artwork
+Package: mow-gnome-artwork
 Architecture: all
 Depends: ${misc:Depends},
-         wintersky-wallpapers,
+         mow-wallpapers,
          siduction-icons
 Recommends: dmz-cursor-theme
-Description: GNOME theme for wintersky
+Description: GNOME theme for mow
  Release specific metapackage depending on icons and wallpapers to be
  used in combination with the GNOME Desktop Environment.
